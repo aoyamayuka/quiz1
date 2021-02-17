@@ -1,0 +1,68 @@
+html,body,h1,p,div{
+  margin: 0;
+  padding:0;
+  font-size: 65%;
+  overflow: hidden;
+}
+/*header*/
+header{
+  height:40px;
+  background-color: rgba(93, 151, 187, 0.775);
+}
+.header-logo{
+  float: left;
+  font-family: 'Courier','American Typewriter','Arial Rounded MT Bold',sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+ line-height: 40px;
+}
+.header-title {
+  float: left;
+  width: 80%;
+  text-align: center;
+  line-height: 40px;
+}
+.header-title p{
+  font-size: 2rem;
+
+}
+/*main*/
+main{
+  min-height: 100vh;
+  background-image: url(https://user-images.githubusercontent.com/78868605/108181410-37590980-714b-11eb-8b97-801ddb9b229f.jpg);
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  background-size: cover;
+}
+.quiz-wrapper{
+  width: 100%;
+  text-align: center;
+  
+}
+.container{
+  width:90% ;
+  margin: 0 auto;
+}
+.container p{
+  font-size: 2rem;
+  margin-top: 150px;
+
+}
+.container h1{
+  font-size: 4rem;
+  margin-top: 10px;
+  color: brown;
+}
+.container h2{
+  font-size: 2rem;
+}
+
+.btn{
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: #000;
+  display: inline-block;
+  font-size: 3rem;
+  background-color: brown;
+  font-family: 'Courier','American Typewriter','Arial Rounded MT Bold',sans-serif;
+}
